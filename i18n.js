@@ -8,8 +8,8 @@ const translations = {
         "nav.contact": "Contato",
 
         // Hero
-        "hero.subtitle": "Tech Lead / Engineering Leader",
-        "hero.description": "Sistemas Críticos | Arquitetura & IA Operacional | Escala, Resiliência e Eficiência de Times",
+        "hero.subtitle": "Tech Manager / Engineering Manager",
+        "hero.description": "Liderança Técnica em SaaS | Arquitetura & IA Operacional | Escala, Resiliência e Excelência Operacional",
         "hero.cta": "Contato",
         "hero.cta2": "Saiba Mais",
 
@@ -28,11 +28,12 @@ const translations = {
         "about.ai3": "Estruturar base de conhecimento funcional para melhorar qualidade das histórias",
         "about.ai4": "Identificar riscos e oportunidades nos projetos",
         "about.ai5": "Apoiar tomada de decisão técnica",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Evoluir para Engineering Manager, ampliando impacto através do desenvolvimento de pessoas, melhoria de processos e construção de times de alta performance.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager em empresas SaaS de alta performance, liderando equipes técnicas, definindo estratégia de engenharia e construindo processos de excelência operacional.',
+        "about.extra": "Experiência em gestão completa de ciclo de vida de pessoas: contratação, desenvolvimento de carreira, promoção e tratamento de desempenho.",
 
         // Experience
         "exp.title": "Experiência Profissional",
-        "exp.job1.title": "Coordenador de Sistemas OSS (Tech Lead)",
+        "exp.job1.title": "Coordenador de Sistemas OSS (Tech Manager)",
         "exp.job1.date": "Outubro 2021 – Presente",
         "exp.job1.d1": "Liderança de time multidisciplinar (desenvolvedores, arquitetos e analistas funcionais) em ambiente crítico de telecom",
         "exp.job1.d2": "Coordenação de backlog, priorização e tomada de decisão em cenários de alta pressão",
@@ -40,11 +41,17 @@ const translations = {
         "exp.job1.d4": "Uso de IA para engenharia reversa de sistemas legados, estruturando SDDs e reduzindo dependência de conhecimento tácito",
         "exp.job1.d5": "Criação de base de conhecimento funcional com apoio de IA",
         "exp.job1.d6": "Foco contínuo em estabilidade, resiliência e melhoria de processos em sistemas de missão crítica",
+        "exp.job1.d7": "Condução de post-mortems, análise de falhas e implementação de soluções de longo prazo",
+        "exp.job1.d8": "Gestão de ciclo de vida de pessoas: contratação, desenvolvimento, promoção e tratamento de desempenho",
+        "exp.job1.d9": "Gestão de carreira, avaliação de desempenho, 1:1s e Planos de Desenvolvimento Individual (PDIs)",
+        "exp.job1.d11": "Otimização do fluxo de trabalho através de métricas como Lead Time e Throughput, garantindo que o time tenha os recursos necessários",
+        "exp.job1.d12": "Alinhamento estratégico com Product Managers (PMs), Design e outras áreas de negócio para garantir que o time resolva os problemas certos",
 
         "exp.job2.title": "Arquiteto de Solução IT OSS",
         "exp.job2.date": "Junho 2019 – Outubro 2021",
         "exp.job2.d1": "Desenho e concepção de arquiteturas de soluções para telecomunicações",
         "exp.job2.d2": "Suporte consultivo aos desenvolvedores e garantia de resiliência e escalabilidade sistêmica",
+        "exp.job2.d3": "<strong>Stack Técnico:</strong> Java, Spring Boot, Groovy, Oracle Database",
 
         "exp.job3.title": "Gerente de Desenvolvimento",
         "exp.job3.date": "Agosto 2018 – Maio 2019",
@@ -81,7 +88,19 @@ const translations = {
         "skills.cat1": "Linguagens & Ecossistemas",
         "skills.cat2": "Arquitetura & Engenharia",
         "skills.cat2.1": "Sistemas Críticos",
+        "skills.cat2.2": "Domain-Driven Design (DDD)",
+        "skills.cat2.3": "Arquitetura Hexagonal & Event-Driven",
         "skills.cat2.4": "Resiliência & Escalabilidade",
+        "skills.cat7": "Backend & Cloud Infrastructure",
+        "skills.cat7.1": "Node.js, Python",
+        "skills.cat7.2": "Kubernetes, Docker",
+        "skills.cat7.3": "Gestão de Custos Cloud",
+        "skills.cat7.4": "Arquitetura de Sistemas Web",
+        "skills.cat8": "Gestão de Produto & SaaS",
+        "skills.cat8.1": "Priorização: Features vs Dívida Técnica",
+        "skills.cat8.2": "Alinhamento Técnico-Negócio",
+        "skills.cat8.3": "Métricas & KPIs de Engenharia",
+        "skills.cat8.4": "Gestão Financeira de Engenharia",
         "skills.cat3": "IA Operacional",
         "skills.cat3.3": "Automação com IA",
         "skills.cat3.4": "IA aplicada à gestão",
@@ -118,8 +137,8 @@ const translations = {
         "nav.contact": "Contact",
 
         // Hero
-        "hero.subtitle": "Tech Lead / Engineering Leader",
-        "hero.description": "Critical Systems | Architecture & Operational AI | Scale, Resilience and Team Efficiency",
+        "hero.subtitle": "Tech Manager / Engineering Manager",
+        "hero.description": "Technical Leadership in SaaS | Architecture & Operational AI | Scale, Resilience and Operational Excellence",
         "hero.cta": "Contact",
         "hero.cta2": "Learn More",
 
@@ -128,6 +147,7 @@ const translations = {
         "about.p1": "I lead development teams in critical systems, focusing on scale, resilience, and operational efficiency through well-defined architecture and practical use of AI.",
         "about.p2": "I coordinate multidisciplinary teams (developers, architects, and functional analysts), ensuring consistent deliveries, system stability, and efficient response to high-impact incidents.",
         "about.p3": "My role goes beyond technical execution: I focus on structuring team operations to increase predictability, quality, and delivery speed.",
+        "about.extra": "Experience in complete people lifecycle management: recruitment, career development, promotion, and performance management.",
         "about.highlight1": "Backlog organization and prioritization in high-pressure environments",
         "about.highlight2": "Bridging technical and business areas",
         "about.highlight3": "Continuous support to unblock complex problems",
@@ -138,7 +158,7 @@ const translations = {
         "about.ai3": "Build functional knowledge bases to improve story quality",
         "about.ai4": "Identify risks and opportunities in projects",
         "about.ai5": "Support technical decision-making",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Evolve into an Engineering Manager role, expanding impact through people development, process improvement, and building high-performance teams.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager in high-performance SaaS companies, leading technical teams, defining engineering strategy, and building operational excellence processes.',
 
         // Experience
         "exp.title": "Professional Experience",
@@ -150,6 +170,8 @@ const translations = {
         "exp.job1.d4": "Using AI for legacy system reverse engineering, structuring SDDs and reducing tacit knowledge dependency",
         "exp.job1.d5": "Building functional knowledge bases with AI support",
         "exp.job1.d6": "Continuous focus on stability, resilience, and process improvement in mission-critical systems",
+        "exp.job1.d7": "Conducting post-mortems, failure analysis, and implementing long-term solutions",
+        "exp.job1.d8": "People lifecycle management: recruitment, development, promotion, and performance management",
 
         "exp.job2.title": "IT OSS Solution Architect",
         "exp.job2.date": "June 2019 – October 2021",
@@ -191,6 +213,8 @@ const translations = {
         "skills.cat1": "Languages & Ecosystems",
         "skills.cat2": "Architecture & Engineering",
         "skills.cat2.1": "Critical Systems",
+        "skills.cat2.2": "Domain-Driven Design (DDD)",
+        "skills.cat2.3": "Hexagonal Architecture & Event-Driven",
         "skills.cat2.4": "Resilience & Scalability",
         "skills.cat3": "Operational AI",
         "skills.cat3.3": "AI Automation",
@@ -203,6 +227,16 @@ const translations = {
         "skills.cat6.2": "Technical/Business Mediation",
         "skills.cat6.3": "Decision-Making",
         "skills.cat6.4": "People Development",
+        "skills.cat7": "Backend & Cloud Infrastructure",
+        "skills.cat7.1": "Node.js, Python",
+        "skills.cat7.2": "Kubernetes, Docker",
+        "skills.cat7.3": "Cloud Cost Management",
+        "skills.cat7.4": "Web Systems Architecture",
+        "skills.cat8": "Product Management & SaaS",
+        "skills.cat8.1": "Prioritization: Features vs Technical Debt",
+        "skills.cat8.2": "Technical-Business Alignment",
+        "skills.cat8.3": "Engineering Metrics & KPIs",
+        "skills.cat8.4": "Engineering Financial Management",
 
         // Education
         "edu.title": "Education",
