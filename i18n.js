@@ -28,7 +28,7 @@ const translations = {
         "about.ai3": "Estruturar base de conhecimento funcional para melhorar qualidade das histórias",
         "about.ai4": "Identificar riscos e oportunidades nos projetos",
         "about.ai5": "Apoiar tomada de decisão técnica",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager em empresas SaaS de alta performance, liderando equipes técnicas, definindo estratégia de engenharia e construindo processos de excelência operacional.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager com experiência em gestão de sistemas SaaS — microserviços em nuvem com Kubernetes — liderando equipes técnicas, definindo estratégia de engenharia e construindo processos de excelência operacional.',
         "about.extra": "Experiência em gestão completa de ciclo de vida de pessoas: contratação, desenvolvimento de carreira, promoção e tratamento de desempenho.",
 
         // Experience
@@ -46,6 +46,7 @@ const translations = {
         "exp.job1.d9": "Gestão de carreira, avaliação de desempenho, 1:1s e Planos de Desenvolvimento Individual (PDIs)",
         "exp.job1.d11": "Otimização do fluxo de trabalho através de métricas como Lead Time e Throughput, garantindo que o time tenha os recursos necessários",
         "exp.job1.d12": "Alinhamento estratégico com Product Managers (PMs), Design e outras áreas de negócio para garantir que o time resolva os problemas certos",
+        "exp.job1.d13": "Gestão e priorização de dívida técnica, equilibrando velocidade de entrega com saúde do sistema",
 
         "exp.job2.title": "Arquiteto de Solução IT OSS",
         "exp.job2.date": "Junho 2019 – Outubro 2021",
@@ -158,11 +159,11 @@ const translations = {
         "about.ai3": "Build functional knowledge bases to improve story quality",
         "about.ai4": "Identify risks and opportunities in projects",
         "about.ai5": "Support technical decision-making",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager in high-performance SaaS companies, leading technical teams, defining engineering strategy, and building operational excellence processes.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager with experience managing SaaS systems — cloud microservices with Kubernetes — leading technical teams, defining engineering strategy, and building operational excellence processes.',
 
         // Experience
         "exp.title": "Professional Experience",
-        "exp.job1.title": "OSS Systems Coordinator (Tech Lead)",
+        "exp.job1.title": "OSS Systems Coordinator (Tech Manager)",
         "exp.job1.date": "October 2021 – Present",
         "exp.job1.d1": "Leading a multidisciplinary team (developers, architects, and functional analysts) in a critical telecom environment",
         "exp.job1.d2": "Backlog coordination, prioritization, and decision-making in high-pressure scenarios",
@@ -172,11 +173,16 @@ const translations = {
         "exp.job1.d6": "Continuous focus on stability, resilience, and process improvement in mission-critical systems",
         "exp.job1.d7": "Conducting post-mortems, failure analysis, and implementing long-term solutions",
         "exp.job1.d8": "People lifecycle management: recruitment, development, promotion, and performance management",
+        "exp.job1.d9": "Career management, performance evaluation, 1:1s, and Individual Development Plans (IDPs)",
+        "exp.job1.d11": "Workflow optimization through metrics like Lead Time and Throughput, ensuring the team has necessary resources",
+        "exp.job1.d12": "Strategic alignment with Product Managers (PMs), Design, and other business areas to ensure the team solves the right problems",
+        "exp.job1.d13": "Technical debt management and prioritization, balancing delivery speed with system health",
 
         "exp.job2.title": "IT OSS Solution Architect",
         "exp.job2.date": "June 2019 – October 2021",
         "exp.job2.d1": "Design and conception of solution architectures for telecommunications",
         "exp.job2.d2": "Consultative support to developers ensuring resilience and systemic scalability",
+        "exp.job2.d3": "<strong>Technical Stack:</strong> Java, Spring Boot, Groovy, Oracle Database",
 
         "exp.job3.title": "Development Manager",
         "exp.job3.date": "August 2018 – May 2019",
