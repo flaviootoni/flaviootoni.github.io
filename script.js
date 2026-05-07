@@ -70,6 +70,12 @@ function setLanguage(lang) {
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
     });
+
+    // Update curriculo button href based on language
+    const btnCurriculo = document.getElementById('btn-curriculo');
+    if (btnCurriculo) {
+        btnCurriculo.href = lang === 'en' ? 'curriculo-en.html' : 'curriculo.html';
+    }
 }
 
 // Language button handlers
