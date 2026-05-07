@@ -13,6 +13,10 @@ const translations = {
         "hero.cta": "Contato",
         "hero.cta2": "Saiba Mais",
         "hero.cta3": "Ver Currículo",
+        "hero.stat1": "Anos de experiência",
+        "hero.stat2": "Anos em liderança",
+        "hero.stat3": "Sistemas críticos",
+        "badge.atual": "Atual",
 
         // About
         "about.title": "Sobre Mim",
@@ -145,6 +149,10 @@ const translations = {
         "hero.cta": "Contact",
         "hero.cta2": "Learn More",
         "hero.cta3": "View Resume",
+        "hero.stat1": "Years of experience",
+        "hero.stat2": "Years in leadership",
+        "hero.stat3": "Critical systems",
+        "badge.atual": "Current",
 
         // About
         "about.title": "About Me",
