@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Flavio Henrique Nahon Otoni</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 10.5pt;
+    color: #1a1a2e;
+    line-height: 1.45;
+    background: #fff;
+  }
+
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 14mm 16mm 14mm 16mm;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    border-bottom: 3px solid #1d4ed8;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+
+  .header h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    color: #1d4ed8;
+    letter-spacing: -0.5px;
+  }
+
+  .header .title {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #374151;
+    margin: 2px 0 6px;
+  }
+
+  .header .tagline {
+    font-size: 9.5pt;
+    color: #6b7280;
+    margin-bottom: 8px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-size: 9pt;
+    color: #374151;
+  }
+
+  /* ===== SECTIONS ===== */
+  .section {
+    margin-bottom: 14px;
+  }
+
+  .section-title {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 1.5px solid #bfdbfe;
+    padding-bottom: 3px;
+    margin-bottom: 9px;
+  }
+
+  /* ===== OBJECTIVE ===== */
+  .objective p {
+    font-size: 10pt;
+    color: #374151;
+    line-height: 1.55;
+  }
+
+  /* ===== EXPERIENCE ===== */
+  .job {
+    margin-bottom: 12px;
+    page-break-inside: avoid;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .job-title {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .job-date {
+    font-size: 9pt;
+    color: #6b7280;
+    white-space: nowrap;
+  }
+
+  .job-company {
+    font-size: 9.5pt;
+    font-weight: 600;
+    color: #1d4ed8;
+    margin-bottom: 5px;
+  }
+
+  .job ul {
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+
+  .job ul li {
+    font-size: 9.5pt;
+    color: #374151;
+    margin-bottom: 2px;
+  }
+
+  .job .stack {
+    font-size: 9pt;
+    color: #4b5563;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  /* ===== SKILLS ===== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 24px;
+  }
+
+  .skill-group h4 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 2px;
+  }
+
+  .skill-group p {
+    font-size: 9pt;
+    color: #4b5563;
+    line-height: 1.4;
+  }
+
+  /* ===== EDUCATION / LANGUAGES ===== */
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+  }
+
+  .edu-degree {
+    font-weight: 700;
+    font-size: 10pt;
+  }
+
+  .edu-school {
+    font-size: 9.5pt;
+    color: #1d4ed8;
+    font-weight: 600;
+  }
+
+  .edu-year {
+    font-size: 9pt;
+    color: #6b7280;
+  }
+
+  .lang-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 4px;
+  }
+
+  .lang-item span:first-child {
+    font-weight: 600;
+    font-size: 9.5pt;
+  }
+
+  .lang-item span:last-child {
+    font-size: 9pt;
+    color: #6b7280;
+    margin-left: 4px;
+  }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 10mm 14mm; }
+    .job { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Flavio Henrique Nahon Otoni</h1>
+    <div class="title">Tech Manager / Engineering Manager</div>
+    <div class="tagline">Liderança Técnica &amp; Atuação Prática em Arquitetura &nbsp;|&nbsp; SaaS, Microserviços &amp; Kubernetes &nbsp;|&nbsp; Excelência Operacional</div>
+    <div class="contact-row">
+      <span>📧 flaviootoni@gmail.com</span>
+      <span>📍 Curitiba, PR</span>
+      <span>🔗 flaviootoni.github.io</span>
+      <span>💼 linkedin.com/in/flaviootoni</span>
+    </div>
+  </div>
+
+  <!-- OBJETIVO -->
+  <div class="section objective">
+    <div class="section-title">Objetivo Profissional</div>
+    <p>
+      Tech Manager que combina liderança técnica com atuação prática em arquitetura e qualidade de código — com experiência em sistemas SaaS, microserviços em nuvem com Kubernetes, definindo estratégia de engenharia e construindo processos de excelência operacional.
+    </p>
+  </div>
+
+  <!-- EXPERIÊNCIA -->
+  <div class="section">
+    <div class="section-title">Experiência Profissional</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Coordenador de Sistemas OSS — Tech Manager</span>
+        <span class="job-date">Out 2021 – Presente</span>
+      </div>
+      <div class="job-company">Telefônica Brasil (Vivo) &mdash; Curitiba, PR</div>
+      <ul>
+        <li>Liderança de time multidisciplinar (desenvolvedores, arquitetos e analistas funcionais) em ambiente crítico de telecom</li>
+        <li>Gestão e priorização de dívida técnica, equilibrando velocidade de entrega com saúde do sistema</li>
+        <li>Uso de Claude Code e GitHub Copilot para acelerar análise de código, debugging e resolução de incidentes, aumentando a produtividade do time</li>
+        <li>Alinhamento estratégico com Product Managers, Design e áreas de negócio para garantir que o time resolva os problemas certos</li>
+        <li>Otimização do fluxo via métricas como Lead Time e Throughput</li>
+        <li>Condução de post-mortems, análise de falhas e implementação de soluções de longo prazo</li>
+        <li>Gestão de carreira: 1:1s, avaliações de desempenho, PDIs, contratação, promoção e desligamento</li>
+        <li>Uso de IA para engenharia reversa de sistemas legados, estruturando SDDs e reduzindo dependência de conhecimento tácito</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Arquiteto de Solução IT OSS</span>
+        <span class="job-date">Jun 2019 – Out 2021</span>
+      </div>
+      <div class="job-company">Telefônica Brasil (Vivo) &mdash; Curitiba, PR</div>
+      <ul>
+        <li>Desenho e concepção de arquiteturas de soluções para telecomunicações</li>
+        <li>Suporte consultivo aos desenvolvedores garantindo resiliência e escalabilidade sistêmica</li>
+      </ul>
+      <div class="stack"><strong>Stack:</strong> Java, Spring Boot, Groovy, Oracle Database</div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Gerente de Desenvolvimento</span>
+        <span class="job-date">Ago 2018 – Mai 2019</span>
+      </div>
+      <div class="job-company">Agência Polvo &mdash; Curitiba, PR</div>
+      <ul>
+        <li>Liderança de definição arquitetural e direcionamento técnico de projetos</li>
+        <li>Gestão financeira completa: controle de custos, previsibilidade e otimização de recursos</li>
+        <li>Governança de projetos com metodologias ágeis e Jira</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Coordenador de Sistemas — Engenharia TI</span>
+        <span class="job-date">Dez 2016 – Ago 2018</span>
+      </div>
+      <div class="job-company">Telefônica Brasil (Vivo) &mdash; Curitiba, PR</div>
+      <ul>
+        <li>Coordenação de equipes multidisciplinares: gerentes de projetos, desenvolvedores, DBAs e fornecedores terceirizados</li>
+        <li>Direção de projetos de software com Scrum e ferramentas internas de gestão ágil</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Coordenador de Sistemas — Engenharia TI</span>
+        <span class="job-date">Mai 2012 – Nov 2016</span>
+      </div>
+      <div class="job-company">GVT &mdash; Curitiba, PR</div>
+      <ul>
+        <li>Coordenação técnica em ambientes de alta criticidade com Scrum e Asana</li>
+        <li><strong>Freedom (Retail):</strong> App Android/iOS para uso da linha fixa pelo smartphone</li>
+        <li><strong>Colocation (Corporate):</strong> Primeira solução de Data Center B2B na GVT</li>
+        <li><strong>IONIX:</strong> Plataforma analítica de Problemas e Incidentes baseada em ITIL</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Analista de Software Sênior</span>
+        <span class="job-date">Mai 2010 – Mai 2012</span>
+      </div>
+      <div class="job-company">CINQ Technologies</div>
+      <ul>
+        <li>Desenvolvimento de sistemas em Java e Adobe Flex em projetos alocados na infraestrutura GVT</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Programador Java</span>
+        <span class="job-date">Ago 2008 – Dez 2009</span>
+      </div>
+      <div class="job-company">HSBC GLT Software Development</div>
+      <ul>
+        <li>Desenvolvimento do core sistêmico para a solução corporativa IBS (Insurance Brazil)</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Programador Java</span>
+        <span class="job-date">2007 – 2008</span>
+      </div>
+      <div class="job-company">Tecnodata Educacional</div>
+      <ul>
+        <li>Implementação do ERP Prometheus (Totvs), análise de projetos e entrega de soluções departamentais</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COMPETÊNCIAS -->
+  <div class="section">
+    <div class="section-title">Competências</div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Linguagens &amp; Frontend</h4>
+        <p>Java, Node.js, Python · React, Next.js, Vite, Vue.js</p>
+      </div>
+      <div class="skill-group">
+        <h4>Cloud &amp; Infraestrutura</h4>
+        <p>Azure, Kubernetes, Docker · Apache Kafka · Elastic Cloud (Observabilidade) · Gestão de Custos Cloud</p>
+      </div>
+      <div class="skill-group">
+        <h4>Arquitetura &amp; Engenharia</h4>
+        <p>Domain-Driven Design (DDD) · Arquitetura Hexagonal, SOLID &amp; Event-Driven · Microserviços · Resiliência &amp; Escalabilidade</p>
+      </div>
+      <div class="skill-group">
+        <h4>CI/CD &amp; Qualidade</h4>
+        <p>Azure Pipelines (CI/CD) · Testes Automatizados · Code Review · Spec-Driven Development (SDD)</p>
+      </div>
+      <div class="skill-group">
+        <h4>IA Operacional</h4>
+        <p>Claude Code &amp; GitHub Copilot · LLMs (OpenAI, Gemini) · Automação com IA · n8n · IA aplicada à gestão</p>
+      </div>
+      <div class="skill-group">
+        <h4>Metodologias</h4>
+        <p>Scrum · Kanban · XP (Extreme Programming) · ITIL · PMBOK</p>
+      </div>
+      <div class="skill-group">
+        <h4>Gestão &amp; Liderança</h4>
+        <p>Gestão de times · 1:1s &amp; PDIs · Métricas (Lead Time, Throughput) · Priorização de dívida técnica · Alinhamento Técnico-Negócio</p>
+      </div>
+      <div class="skill-group">
+        <h4>Produto &amp; SaaS</h4>
+        <p>Priorização: Features vs Dívida Técnica · Métricas &amp; KPIs de Engenharia · Gestão Financeira de Engenharia</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORMAÇÃO -->
+  <div class="section">
+    <div class="section-title">Formação</div>
+    <div class="edu-row">
+      <div>
+        <div class="edu-degree">Bacharel em Sistemas de Informação</div>
+        <div class="edu-school">UniBrasil Centro Universitário</div>
+      </div>
+      <div class="edu-year">2004 – 2011</div>
+    </div>
+  </div>
+
+  <!-- IDIOMAS -->
+  <div class="section">
+    <div class="section-title">Idiomas</div>
+    <div class="lang-row">
+      <div class="lang-item"><span>Português</span><span>Nativo</span></div>
+      <div class="lang-item"><span>Inglês</span><span>Intermediário</span></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

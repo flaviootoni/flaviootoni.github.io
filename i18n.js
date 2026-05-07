@@ -12,6 +12,7 @@ const translations = {
         "hero.description": "Liderança Técnica em SaaS | Arquitetura & IA Operacional | Escala, Resiliência e Excelência Operacional",
         "hero.cta": "Contato",
         "hero.cta2": "Saiba Mais",
+        "hero.cta3": "Ver Currículo",
 
         // About
         "about.title": "Sobre Mim",
@@ -143,6 +144,7 @@ const translations = {
         "hero.description": "Technical Leadership in SaaS | Architecture & Operational AI | Scale, Resilience and Operational Excellence",
         "hero.cta": "Contact",
         "hero.cta2": "Learn More",
+        "hero.cta3": "View Resume",
 
         // About
         "about.title": "About Me",
