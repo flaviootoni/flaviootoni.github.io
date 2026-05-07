@@ -29,7 +29,7 @@ const translations = {
         "about.ai4": "Identificar riscos e oportunidades nos projetos",
         "about.ai5": "Apoiar tomada de decisão técnica",
         "about.ai6": "Claude Code e GitHub Copilot como ferramentas diárias para elevar a produtividade do time de engenharia",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager com experiência em gestão de sistemas SaaS — microserviços em nuvem com Kubernetes — liderando equipes técnicas, definindo estratégia de engenharia e construindo processos de excelência operacional.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager que combina liderança técnica com atuação prática em arquitetura e qualidade de código — com experiência em sistemas SaaS, microserviços em nuvem com Kubernetes, definindo estratégia de engenharia e construindo processos de excelência operacional.',
         "about.extra": "Experiência em gestão completa de ciclo de vida de pessoas: contratação, desenvolvimento de carreira, promoção e tratamento de desempenho.",
 
         // Experience
@@ -91,11 +91,11 @@ const translations = {
         "skills.cat2": "Arquitetura & Engenharia",
         "skills.cat2.1": "Sistemas Críticos",
         "skills.cat2.2": "Domain-Driven Design (DDD)",
-        "skills.cat2.3": "Arquitetura Hexagonal & Event-Driven",
+        "skills.cat2.3": "Arquitetura Hexagonal, SOLID & Event-Driven",
         "skills.cat2.4": "Resiliência & Escalabilidade",
         "skills.cat7": "Backend & Cloud Infrastructure",
         "skills.cat7.1": "Node.js, Python",
-        "skills.cat7.2": "Kubernetes, Docker",
+        "skills.cat7.2": "Azure, Kubernetes, Docker",
         "skills.cat7.3": "Gestão de Custos Cloud",
         "skills.cat7.4": "Arquitetura de Sistemas Web",
         "skills.cat8": "Gestão de Produto & SaaS",
@@ -161,7 +161,7 @@ const translations = {
         "about.ai4": "Identify risks and opportunities in projects",
         "about.ai5": "Support technical decision-making",
         "about.ai6": "Claude Code and GitHub Copilot as daily tools to boost engineering team productivity",
-        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager with experience managing SaaS systems — cloud microservices with Kubernetes — leading technical teams, defining engineering strategy, and building operational excellence processes.',
+        "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager combining technical leadership with hands-on work in architecture and code quality — with experience in SaaS systems, cloud microservices with Kubernetes, defining engineering strategy, and building operational excellence processes.',
 
         // Experience
         "exp.title": "Professional Experience",
@@ -237,7 +237,7 @@ const translations = {
         "skills.cat6.4": "People Development",
         "skills.cat7": "Backend & Cloud Infrastructure",
         "skills.cat7.1": "Node.js, Python",
-        "skills.cat7.2": "Kubernetes, Docker",
+        "skills.cat7.2": "Azure, Kubernetes, Docker",
         "skills.cat7.3": "Cloud Cost Management",
         "skills.cat7.4": "Web Systems Architecture",
         "skills.cat8": "Product Management & SaaS",
