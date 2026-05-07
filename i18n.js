@@ -28,6 +28,7 @@ const translations = {
         "about.ai3": "Estruturar base de conhecimento funcional para melhorar qualidade das histórias",
         "about.ai4": "Identificar riscos e oportunidades nos projetos",
         "about.ai5": "Apoiar tomada de decisão técnica",
+        "about.ai6": "Claude Code e GitHub Copilot como ferramentas diárias para elevar a produtividade do time de engenharia",
         "about.goal": '<i class="fas fa-bullseye"></i> <strong>Objetivo:</strong> Tech Manager com experiência em gestão de sistemas SaaS — microserviços em nuvem com Kubernetes — liderando equipes técnicas, definindo estratégia de engenharia e construindo processos de excelência operacional.',
         "about.extra": "Experiência em gestão completa de ciclo de vida de pessoas: contratação, desenvolvimento de carreira, promoção e tratamento de desempenho.",
 
@@ -159,6 +160,7 @@ const translations = {
         "about.ai3": "Build functional knowledge bases to improve story quality",
         "about.ai4": "Identify risks and opportunities in projects",
         "about.ai5": "Support technical decision-making",
+        "about.ai6": "Claude Code and GitHub Copilot as daily tools to boost engineering team productivity",
         "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager with experience managing SaaS systems — cloud microservices with Kubernetes — leading technical teams, defining engineering strategy, and building operational excellence processes.',
 
         // Experience
