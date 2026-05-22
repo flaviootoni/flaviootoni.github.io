@@ -310,7 +310,7 @@ ul {
     min-height: 480px;
     border-radius: 0;
     object-fit: cover;
-    object-position: top center;
+    object-position: 72% top;
     display: block;
     filter: brightness(0.88) contrast(1.05);
 }
