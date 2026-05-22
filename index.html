@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
+<body class="preloader-fallback">
     <!-- Preloader -->
     <div id="preloader" aria-hidden="true">
         <div class="preloader-content">
@@ -23,7 +23,13 @@
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#hero" class="nav-logo">Flavio Otoni</a>
+            <a href="#hero" class="nav-brand">
+                <span class="star" aria-hidden="true"></span>
+                <span class="nav-brand-text">
+                    <span class="nav-brand-name">Flávio Otoni</span>
+                    <span class="nav-brand-tagline" data-i18n="nav.tagline">Gestão Moderna · Liderança · IA</span>
+                </span>
+            </a>
             <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
@@ -32,6 +38,7 @@
                 <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experiência</a></li>
                 <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Competências</a></li>
                 <li><a href="#education" class="nav-link" data-i18n="nav.education">Formação</a></li>
+                <li><a href="#consulta" class="nav-link" data-i18n="nav.consult">Consultoria</a></li>
                 <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contato</a></li>
                 <li class="nav-lang">
                     <button class="lang-btn active" data-lang="pt">PT</button>
@@ -43,18 +50,13 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <div class="hero-number-bg" aria-hidden="true">01</div>
         <div class="hero-content">
-            <aside class="hero-aside" aria-hidden="true">
-                <span class="hero-label">PORTFOLIO</span>
-            </aside>
             <div class="hero-text">
-                <h1>Flavio Henrique Nahon Otoni<span class="hero-dot">.</span></h1>
-                <div class="hero-rule"></div>
-                <p class="hero-subtitle" data-i18n="hero.subtitle">Tech Manager / Engineering Manager</p>
+                <p class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Tech Manager · Engineering Manager</p>
+                <h1 class="display">Flavio Henrique Nahon Otoni<span class="hero-dot">.</span></h1>
                 <p class="hero-description" data-i18n="hero.description">Liderança Técnica em SaaS | Arquitetura & IA Operacional | Escala, Resiliência e Excelência Operacional</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">Contato</a>
+                    <a href="#consulta" class="btn btn-primary" data-i18n="hero.ctaConsult">Agendar consultoria</a>
                     <a href="#about" class="btn btn-secondary" data-i18n="hero.cta2">Saiba Mais</a>
                     <a href="curriculo.html" target="_blank" class="btn btn-secondary" id="btn-curriculo" data-i18n="hero.cta3">Ver Currículo</a>
                 </div>
@@ -74,7 +76,9 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <img src="me.jpg" alt="Flavio Otoni" class="hero-photo">
+                <div class="hero-photo-wrapper">
+                    <img src="me.png" alt="Flavio Otoni" class="hero-photo">
+                </div>
             </div>
         </div>
     </section>
@@ -82,7 +86,10 @@
     <!-- About Section -->
     <section class="section" id="about">
         <div class="container">
-            <h2 class="section-title" data-i18n="about.title">Sobre Mim</h2>
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="about.eyebrow">Perfil</span>
+                <h2 class="section-title display"><span data-i18n="about.title">Sobre Mim</span></h2>
+            </div>
             <div class="about-content">
                 <p data-i18n="about.p1">Lidero times de desenvolvimento em sistemas críticos, focando em escala, resiliência e eficiência operacional através de arquitetura bem definida e uso prático de IA.</p>
                 <p data-i18n="about.p2">Atuo na coordenação de equipes multidisciplinares (desenvolvedores, arquitetos e analistas funcionais), garantindo entregas consistentes, estabilidade do sistema e resposta eficiente a incidentes de alto impacto.</p>
@@ -125,7 +132,10 @@
     <!-- Experience Section -->
     <section class="section section-alt" id="experience">
         <div class="container">
-            <h2 class="section-title" data-i18n="exp.title">Experiência Profissional</h2>
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="exp.eyebrow">Trajetória</span>
+                <h2 class="section-title display" data-i18n="exp.title">Experiência Profissional</h2>
+            </div>
             <div class="timeline">
                 <!-- Telefonica - Tech Manager -->
                 <div class="timeline-item">
@@ -277,7 +287,10 @@
     <!-- Skills Section -->
     <section class="section" id="skills">
         <div class="container">
-            <h2 class="section-title" data-i18n="skills.title">Competências</h2>
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="skills.eyebrow">Stack & método</span>
+                <h2 class="section-title display" data-i18n="skills.title">Competências</h2>
+            </div>
             <div class="skills-grid">
                 <div class="skill-card" data-cat="langs">
                     <div class="skill-icon"><i class="fas fa-code"></i></div>
@@ -377,7 +390,10 @@
     <!-- Education Section -->
     <section class="section section-alt" id="education">
         <div class="container">
-            <h2 class="section-title" data-i18n="edu.title">Formação</h2>
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="edu.eyebrow">Base acadêmica</span>
+                <h2 class="section-title display" data-i18n="edu.title">Formação</h2>
+            </div>
             <div class="education-grid">
                 <div class="education-card">
                     <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
@@ -402,17 +418,186 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="section" id="contact">
+    <!-- Consultoria Section -->
+    <section class="section consult-section" id="consulta">
         <div class="container">
-            <h2 class="section-title" data-i18n="contact.title">Contato</h2>
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="consult.eyebrow">Sessões 1:1</span>
+                <h2 class="section-title display"><span data-i18n="consult.title">Consultoria</span></h2>
+                <p class="body-text" data-i18n="consult.subtitle">Liderança técnica, arquitetura e IA aplicada à operação — com foco em times críticos e resultados mensuráveis.</p>
+            </div>
+
+            <!-- Benefits Grid -->
+            <div class="consult-benefits-grid">
+                <!-- Card 1 -->
+                <div class="consult-benefit-card">
+                    <div class="consult-benefit-icon"><i class="fas fa-award"></i></div>
+                    <div class="consult-benefit-content">
+                        <h4 data-i18n="consult.b1.title">Experiência Prática</h4>
+                        <p data-i18n="consult.b1.text">Mais de 15 anos liderando times de tecnologia no mercado real. Você aprende com quem está no campo, não na arquibancada.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="consult-benefit-card">
+                    <div class="consult-benefit-icon"><i class="fas fa-compass"></i></div>
+                    <div class="consult-benefit-content">
+                        <h4 data-i18n="consult.b2.title">Decisões com clareza</h4>
+                        <p data-i18n="consult.b2.text">Frameworks práticos para priorizar, delegar e decidir rápido — mesmo sob pressão.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="consult-benefit-card">
+                    <div class="consult-benefit-icon"><i class="fas fa-robot"></i></div>
+                    <div class="consult-benefit-content">
+                        <h4 data-i18n="consult.b3.title">IA como copiloto</h4>
+                        <p data-i18n="consult.b3.text">Integração prática de inteligência artificial para automatizar tarefas repetitivas e gerar insights.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="consult-benefit-card">
+                    <div class="consult-benefit-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="consult-benefit-content">
+                        <h4 data-i18n="consult.b4.title">Produtividade real</h4>
+                        <p data-i18n="consult.b4.text">Workflows inteligentes que eliminam reuniões desnecessárias, e-mails e ruídos de comunicação.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="consult-benefit-card">
+                    <div class="consult-benefit-icon"><i class="fas fa-users"></i></div>
+                    <div class="consult-benefit-content">
+                        <h4 data-i18n="consult.b5.title">Liderança moderna</h4>
+                        <p data-i18n="consult.b5.text">Conduza times técnicos híbridos com segurança psicológica, autonomia e resultados claros.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modules Grid -->
+            <h3 class="consult-modules-title" data-i18n="consult.modules.title">Frentes de Atuação</h3>
+            <div class="consult-modules-grid">
+                <!-- Module 1 -->
+                <div class="consult-module-card">
+                    <div class="consult-module-number">01</div>
+                    <div class="consult-module-content">
+                        <h3 data-i18n="consult.m1.title">Gestão orientada por dados</h3>
+                        <p data-i18n="consult.m1.text">Métricas, rituais e dashboards que mostram a saúde do time sem microgestão.</p>
+                    </div>
+                </div>
+                <!-- Module 2 -->
+                <div class="consult-module-card">
+                    <div class="consult-module-number">02</div>
+                    <div class="consult-module-content">
+                        <h3 data-i18n="consult.m2.title">IA na rotina do gestor</h3>
+                        <p data-i18n="consult.m2.text">Automatizar relatórios, resumir contextos e acelerar decisões com copilotos práticos.</p>
+                    </div>
+                </div>
+                <!-- Module 3 -->
+                <div class="consult-module-card">
+                    <div class="consult-module-number">03</div>
+                    <div class="consult-module-content">
+                        <h3 data-i18n="consult.m3.title">Liderança de times técnicos</h3>
+                        <p data-i18n="consult.m3.text">Comunicação, delegação e autonomia em equipes híbridas de engenharia e produto.</p>
+                    </div>
+                </div>
+                <!-- Module 4 -->
+                <div class="consult-module-card">
+                    <div class="consult-module-number">04</div>
+                    <div class="consult-module-content">
+                        <h3 data-i18n="consult.m4.title">Workflows inteligentes</h3>
+                        <p data-i18n="consult.m4.text">Mapear e enxugar fluxos que devolvem tempo para o que exige julgamento humano.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="consult-card">
+                <div class="consult-intro">
+                    <p class="body-text" data-i18n="consult.lead">Há mais de 15 anos lidero times de tecnologia em transformação digital. Ajudo gestores e líderes técnicos a ganharem clareza, produtividade e apoio de IA — sem buzzword, com frameworks aplicáveis na segunda-feira.</p>
+                    
+                    <div style="margin: 2rem 0; display: flex; flex-direction: column; gap: 16px;">
+                        <h4 style="font-family: 'Josefin Sans', sans-serif; font-size: 16px; color: var(--gold); font-weight: 500;" data-i18n="consult.format.title">Como Funciona</h4>
+                        <div style="display: flex; gap: 12px; align-items: flex-start;">
+                            <div style="color: var(--gold); font-size: 14px; margin-top: 3px;"><i class="fas fa-check-circle"></i></div>
+                            <p class="body-text" style="margin: 0; font-size: 13.5px;" data-i18n-html="consult.format.step1"><strong>Diagnóstico prévio:</strong> Alinhamos seu contexto e desafios antes do nosso encontro.</p>
+                        </div>
+                        <div style="display: flex; gap: 12px; align-items: flex-start;">
+                            <div style="color: var(--gold); font-size: 14px; margin-top: 3px;"><i class="fas fa-check-circle"></i></div>
+                            <p class="body-text" style="margin: 0; font-size: 13.5px;" data-i18n-html="consult.format.step2"><strong>Sessão individual:</strong> Encontro estratégico de 1h ou 2h focado exclusivamente nos seus objetivos.</p>
+                        </div>
+                        <div style="display: flex; gap: 12px; align-items: flex-start;">
+                            <div style="color: var(--gold); font-size: 14px; margin-top: 3px;"><i class="fas fa-check-circle"></i></div>
+                            <p class="body-text" style="margin: 0; font-size: 13.5px;" data-i18n-html="consult.format.step3"><strong>Plano prático:</strong> Você sai com um plano de ação estruturado e a gravação da sessão.</p>
+                        </div>
+                    </div>
+
+                    <div class="consult-stats">
+                        <div>
+                            <div class="consult-stat-num">17+</div>
+                            <div class="consult-stat-label" data-i18n="consult.stat1">Anos de experiência</div>
+                        </div>
+                        <div>
+                            <div class="consult-stat-num">5+</div>
+                            <div class="consult-stat-label" data-i18n="consult.stat2">Anos em liderança</div>
+                        </div>
+                        <div>
+                            <div class="consult-stat-num">24/7</div>
+                            <div class="consult-stat-label" data-i18n="consult.stat3">Sistemas críticos</div>
+                        </div>
+                    </div>
+                </div>
+                <form class="consult-form" id="consult-form" novalidate>
+                    <!-- Opcional: substitua YOUR_FORM_ID por seu endpoint Formspree -->
+                    <input type="hidden" name="formspree-endpoint" id="formspree-endpoint" value="">
+                    <div>
+                        <label for="consult-name" data-i18n="consult.label.name">Nome</label>
+                        <input type="text" id="consult-name" name="name" required autocomplete="name" data-i18n-placeholder="consult.ph.name">
+                    </div>
+                    <div>
+                        <label for="consult-email" data-i18n="consult.label.email">E-mail</label>
+                        <input type="email" id="consult-email" name="email" required autocomplete="email" data-i18n-placeholder="consult.ph.email">
+                    </div>
+                    <div>
+                        <label for="consult-company" data-i18n="consult.label.company">Empresa (opcional)</label>
+                        <input type="text" id="consult-company" name="company" autocomplete="organization" data-i18n-placeholder="consult.ph.company">
+                    </div>
+                    <div>
+                        <label for="consult-type" data-i18n="consult.label.type">Tipo de consultoria</label>
+                        <select id="consult-type" name="type" required>
+                            <option value="" data-i18n="consult.type.placeholder">Selecione…</option>
+                            <option value="data" data-i18n="consult.type.data">Gestão orientada por dados</option>
+                            <option value="ai" data-i18n="consult.type.ai">IA na rotina do gestor</option>
+                            <option value="leadership" data-i18n="consult.type.leadership">Liderança de times técnicos</option>
+                            <option value="workflows" data-i18n="consult.type.workflows">Workflows inteligentes</option>
+                            <option value="other" data-i18n="consult.type.other">Outro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="consult-message" data-i18n="consult.label.message">Mensagem</label>
+                        <textarea id="consult-message" name="message" required data-i18n-placeholder="consult.ph.message"></textarea>
+                    </div>
+                    <div class="consult-form-status" id="consult-form-status" role="status" aria-live="polite"></div>
+                    <div class="consult-form-actions">
+                        <button type="submit" class="btn btn-primary" data-i18n="consult.submit">Enviar solicitação</button>
+                        <a href="https://wa.me/5541988628720?text=Ol%C3%A1%20Fl%C3%A1vio%2C%20gostaria%20de%20agendar%20uma%20consultoria." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="consult-whatsapp" data-i18n="consult.whatsapp">WhatsApp</a>
+                    </div>
+                    <p class="consult-form-note" data-i18n="consult.privacy">Respondo em até 24h úteis. Seus dados são usados apenas para retorno desta solicitação.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow" data-i18n="contact.eyebrow">Redes</span>
+                <h2 class="section-title display" data-i18n="contact.title">Contato</h2>
+            </div>
             <div class="contact-grid">
                 <a href="mailto:flaviootoni@gmail.com" class="contact-card">
                     <i class="fas fa-envelope"></i>
                     <span>flaviootoni@gmail.com</span>
                 </a>
-                <a href="tel:+5541988628720" class="contact-card">
-                    <i class="fas fa-phone"></i>
+                <a href="https://wa.me/5541988628720" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
                     <span>(41) 98862-8720</span>
                 </a>
                 <a href="https://www.linkedin.com/in/flavio-otoni" target="_blank" rel="noopener noreferrer" class="contact-card">
@@ -429,7 +614,17 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p data-i18n-html="footer">&copy; 2025 Flavio Henrique Nahon Otoni. Todos os direitos reservados.</p>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="star" aria-hidden="true"></span>
+                <span>Flávio Otoni</span>
+            </div>
+            <p class="footer-copy" data-i18n-html="footer">&copy; 2026 Flavio Henrique Nahon Otoni. Todos os direitos reservados.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/flavio-otoni" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/flaviootoni" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>

@@ -1,16 +1,20 @@
 const translations = {
     pt: {
         // Nav
+        "nav.tagline": "Gestão Moderna · Liderança · IA",
         "nav.about": "Sobre",
         "nav.experience": "Experiência",
         "nav.skills": "Competências",
         "nav.education": "Formação",
+        "nav.consult": "Consultoria",
         "nav.contact": "Contato",
 
         // Hero
+        "hero.eyebrow": "Gestão Moderna · Liderança · IA",
         "hero.subtitle": "Tech Manager / Engineering Manager",
-        "hero.description": "Liderança Técnica em SaaS | Arquitetura & IA Operacional | Escala, Resiliência e Excelência Operacional",
+        "hero.description": "Liderança técnica prática com foco em escala, eficiência e automação. Ajudo gestores e equipes a integrarem IA na rotina para ganhar clareza e produtividade.",
         "hero.cta": "Contato",
+        "hero.ctaConsult": "Agendar consultoria",
         "hero.cta2": "Saiba Mais",
         "hero.cta3": "Ver Currículo",
         "hero.stat1": "Anos de experiência",
@@ -19,6 +23,7 @@ const translations = {
         "badge.atual": "Atual",
 
         // About
+        "about.eyebrow": "Perfil",
         "about.title": "Sobre Mim",
         "about.p1": "Lidero times de desenvolvimento em sistemas críticos, focando em escala, resiliência e eficiência operacional através de arquitetura bem definida e uso prático de IA.",
         "about.p2": "Atuo na coordenação de equipes multidisciplinares (desenvolvedores, arquitetos e analistas funcionais), garantindo entregas consistentes, estabilidade do sistema e resposta eficiente a incidentes de alto impacto.",
@@ -38,6 +43,7 @@ const translations = {
         "about.extra": "Experiência em gestão completa de ciclo de vida de pessoas: contratação, desenvolvimento de carreira, promoção e tratamento de desempenho.",
 
         // Experience
+        "exp.eyebrow": "Trajetória",
         "exp.title": "Experiência Profissional",
         "exp.job1.title": "Coordenador de Sistemas OSS (Tech Manager)",
         "exp.job1.date": "Outubro 2021 – Presente",
@@ -91,6 +97,7 @@ const translations = {
         "exp.job8.d1": "Implementação do ERP Prometheus (Totvs), análise de projetos e entrega de soluções departamentais",
 
         // Skills
+        "skills.eyebrow": "Stack & método",
         "skills.title": "Competências",
         "skills.cat1": "Linguagens & Ecossistemas",
         "skills.cat2": "Arquitetura & Engenharia",
@@ -121,6 +128,7 @@ const translations = {
         "skills.cat6.4": "Desenvolvimento de Pessoas",
 
         // Education
+        "edu.eyebrow": "Base acadêmica",
         "edu.title": "Formação",
         "edu.degree": "Bacharel em Sistemas de Informação",
         "edu.languages": "Idiomas",
@@ -129,24 +137,82 @@ const translations = {
         "edu.lang2": "Inglês",
         "edu.lang2.level": "Intermediário",
 
+        // Consult
+        "consult.eyebrow": "Sessões 1:1",
+        "consult.title": "Consultoria",
+        "consult.subtitle": "Liderança técnica, arquitetura e IA aplicada à operação — com foco em times críticos e resultados mensuráveis.",
+        "consult.lead": "Há mais de 15 anos lidero times de tecnologia em transformação digital. Ajudo gestores e líderes técnicos a ganharem clareza, produtividade e apoio de IA — sem buzzword, com frameworks aplicáveis na segunda-feira.",
+        "consult.m1.title": "Gestão orientada por dados",
+        "consult.m1.text": "Métricas, rituais e dashboards que mostram a saúde do time sem microgestão.",
+        "consult.m2.title": "IA na rotina do gestor",
+        "consult.m2.text": "Automatizar relatórios, resumir contextos e acelerar decisões com copilotos práticos.",
+        "consult.m3.title": "Liderança de times técnicos",
+        "consult.m3.text": "Comunicação, delegação e autonomia em equipes híbridas de engenharia e produto.",
+        "consult.m4.title": "Workflows inteligentes",
+        "consult.m4.text": "Mapear e enxugar fluxos que devolvem tempo para o que exige julgamento humano.",
+        "consult.b1.title": "Experiência Prática",
+        "consult.b1.text": "Mais de 15 anos liderando times de tecnologia no mercado real. Você aprende com quem está no campo, não na arquibancada.",
+        "consult.b2.title": "Decisões com clareza",
+        "consult.b2.text": "Frameworks práticos para priorizar, delegar e decidir rápido — mesmo sob pressão.",
+        "consult.b3.title": "IA como copiloto",
+        "consult.b3.text": "Integração prática de inteligência artificial para automatizar tarefas repetitivas e gerar insights.",
+        "consult.b4.title": "Produtividade real",
+        "consult.b4.text": "Workflows inteligentes que eliminam reuniões desnecessárias, e-mails e ruídos de comunicação.",
+        "consult.b5.title": "Liderança moderna",
+        "consult.b5.text": "Conduza times técnicos híbridos com segurança psicológica, autonomia e resultados claros.",
+        "consult.stat1": "Anos de experiência",
+        "consult.stat2": "Anos em liderança",
+        "consult.stat3": "Sistemas críticos",
+        "consult.label.name": "Nome",
+        "consult.label.email": "E-mail",
+        "consult.label.company": "Empresa (opcional)",
+        "consult.label.type": "Tipo de consultoria",
+        "consult.label.message": "Mensagem",
+        "consult.ph.name": "Seu nome completo",
+        "consult.ph.email": "seu@email.com",
+        "consult.ph.company": "Nome da empresa",
+        "consult.ph.message": "Conte brevemente seu contexto e o que busca na consultoria",
+        "consult.type.placeholder": "Selecione…",
+        "consult.type.data": "Gestão orientada por dados",
+        "consult.type.ai": "IA na rotina do gestor",
+        "consult.type.leadership": "Liderança de times técnicos",
+        "consult.type.workflows": "Workflows inteligentes",
+        "consult.type.other": "Outro",
+        "consult.submit": "Enviar solicitação",
+        "consult.whatsapp": "WhatsApp",
+        "consult.privacy": "Respondo em até 24h úteis. Seus dados são usados apenas para retorno desta solicitação.",
+        "consult.success": "Mensagem enviada! Retorno em breve.",
+        "consult.error": "Não foi possível enviar. Tente WhatsApp ou e-mail direto.",
+        "consult.wa.default": "Olá Flávio, gostaria de agendar uma consultoria.",
+        "consult.modules.title": "Frentes de Atuação",
+        "consult.format.title": "Como Funciona",
+        "consult.format.step1": "<strong>Diagnóstico prévio:</strong> Alinhamos seu contexto e desafios antes do nosso encontro.",
+        "consult.format.step2": "<strong>Sessão individual:</strong> Encontro estratégico de 1h ou 2h focado exclusivamente nos seus objetivos.",
+        "consult.format.step3": "<strong>Plano prático:</strong> Você sai com um plano de ação estruturado e a gravação da sessão.",
+
         // Contact
+        "contact.eyebrow": "Redes",
         "contact.title": "Contato",
 
         // Footer
-        "footer": "&copy; 2025 Flavio Henrique Nahon Otoni. Todos os direitos reservados."
+        "footer": "&copy; 2026 Flavio Henrique Nahon Otoni. Todos os direitos reservados."
     },
     en: {
         // Nav
+        "nav.tagline": "Modern Management · Leadership · AI",
         "nav.about": "About",
         "nav.experience": "Experience",
         "nav.skills": "Skills",
         "nav.education": "Education",
+        "nav.consult": "Consulting",
         "nav.contact": "Contact",
 
         // Hero
+        "hero.eyebrow": "Modern Management · Leadership · AI",
         "hero.subtitle": "Tech Manager / Engineering Manager",
-        "hero.description": "Technical Leadership in SaaS | Architecture & Operational AI | Scale, Resilience and Operational Excellence",
+        "hero.description": "Hands-on technical leadership focused on scale, efficiency, and automation. I help managers and teams integrate AI into their routine to gain clarity and productivity.",
         "hero.cta": "Contact",
+        "hero.ctaConsult": "Book a consultation",
         "hero.cta2": "Learn More",
         "hero.cta3": "View Resume",
         "hero.stat1": "Years of experience",
@@ -155,6 +221,7 @@ const translations = {
         "badge.atual": "Current",
 
         // About
+        "about.eyebrow": "Profile",
         "about.title": "About Me",
         "about.p1": "I lead development teams in critical systems, focusing on scale, resilience, and operational efficiency through well-defined architecture and practical use of AI.",
         "about.p2": "I coordinate multidisciplinary teams (developers, architects, and functional analysts), ensuring consistent deliveries, system stability, and efficient response to high-impact incidents.",
@@ -174,6 +241,7 @@ const translations = {
         "about.goal": '<i class="fas fa-bullseye"></i> <strong>Goal:</strong> Tech Manager combining technical leadership with hands-on work in architecture and code quality — with experience in SaaS systems, cloud microservices with Kubernetes, defining engineering strategy, and building operational excellence processes.',
 
         // Experience
+        "exp.eyebrow": "Career",
         "exp.title": "Professional Experience",
         "exp.job1.title": "OSS Systems Coordinator (Tech Manager)",
         "exp.job1.date": "October 2021 – Present",
@@ -227,6 +295,7 @@ const translations = {
         "exp.job8.d1": "ERP Prometheus (Totvs) implementation, project analysis, and departmental solution delivery",
 
         // Skills
+        "skills.eyebrow": "Stack & methods",
         "skills.title": "Skills",
         "skills.cat1": "Languages & Ecosystems",
         "skills.cat2": "Architecture & Engineering",
@@ -257,6 +326,7 @@ const translations = {
         "skills.cat8.4": "Engineering Financial Management",
 
         // Education
+        "edu.eyebrow": "Academic",
         "edu.title": "Education",
         "edu.degree": "Bachelor in Information Systems",
         "edu.languages": "Languages",
@@ -265,10 +335,64 @@ const translations = {
         "edu.lang2": "English",
         "edu.lang2.level": "Intermediate",
 
+        // Consult
+        "consult.eyebrow": "1:1 Sessions",
+        "consult.title": "Consulting",
+        "consult.subtitle": "Technical leadership, architecture, and operational AI — focused on critical teams and measurable outcomes.",
+        "consult.lead": "For over 15 years I've led technology teams through digital transformation. I help managers and tech leads gain clarity, productivity, and practical AI support — no buzzwords, frameworks you can apply on Monday.",
+        "consult.m1.title": "Data-driven management",
+        "consult.m1.text": "Metrics, rituals, and dashboards that show team health without micromanagement.",
+        "consult.m2.title": "AI in the manager's routine",
+        "consult.m2.text": "Automate reports, summarize context, and speed up decisions with practical copilots.",
+        "consult.m3.title": "Leading technical teams",
+        "consult.m3.text": "Communication, delegation, and autonomy in hybrid engineering and product teams.",
+        "consult.m4.title": "Smart workflows",
+        "consult.m4.text": "Map and streamline flows that return time for human judgment work.",
+        "consult.b1.title": "Hands-on Experience",
+        "consult.b1.text": "Over 15 years leading technology teams in the real market. Learn from someone on the field, not in the stands.",
+        "consult.b2.title": "Clarity in Decisions",
+        "consult.b2.text": "Actionable frameworks to prioritize, delegate, and decide quickly — even under pressure.",
+        "consult.b3.title": "AI as a Copilot",
+        "consult.b3.text": "Practical integration of AI to automate repetitive tasks and generate insights.",
+        "consult.b4.title": "Real Productivity",
+        "consult.b4.text": "Smart workflows that eliminate unnecessary meetings, emails, and communication noise.",
+        "consult.b5.title": "Modern Leadership",
+        "consult.b5.text": "Lead hybrid technical teams with psychological safety, autonomy, and clear outcomes.",
+        "consult.stat1": "Years of experience",
+        "consult.stat2": "Years in leadership",
+        "consult.stat3": "Critical systems",
+        "consult.label.name": "Name",
+        "consult.label.email": "Email",
+        "consult.label.company": "Company (optional)",
+        "consult.label.type": "Consulting type",
+        "consult.label.message": "Message",
+        "consult.ph.name": "Your full name",
+        "consult.ph.email": "you@email.com",
+        "consult.ph.company": "Company name",
+        "consult.ph.message": "Briefly describe your context and what you're looking for",
+        "consult.type.placeholder": "Select…",
+        "consult.type.data": "Data-driven management",
+        "consult.type.ai": "AI in the manager's routine",
+        "consult.type.leadership": "Leading technical teams",
+        "consult.type.workflows": "Smart workflows",
+        "consult.type.other": "Other",
+        "consult.submit": "Send request",
+        "consult.whatsapp": "WhatsApp",
+        "consult.privacy": "I reply within 24 business hours. Your data is used only to respond to this request.",
+        "consult.success": "Message sent! I'll get back to you soon.",
+        "consult.error": "Could not send. Try WhatsApp or email directly.",
+        "consult.wa.default": "Hi Flavio, I'd like to book a consultation.",
+        "consult.modules.title": "Consulting Pillars",
+        "consult.format.title": "How It Works",
+        "consult.format.step1": "<strong>Pre-assessment:</strong> We align on your context and challenges before our session.",
+        "consult.format.step2": "<strong>1:1 Session:</strong> A 1h or 2h strategic meeting focused exclusively on your goals.",
+        "consult.format.step3": "<strong>Actionable plan:</strong> You leave with a structured roadmap and the full recording.",
+
         // Contact
+        "contact.eyebrow": "Networks",
         "contact.title": "Contact",
 
         // Footer
-        "footer": "&copy; 2025 Flavio Henrique Nahon Otoni. All rights reserved."
+        "footer": "&copy; 2026 Flavio Henrique Nahon Otoni. All rights reserved."
     }
 };
