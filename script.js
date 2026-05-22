@@ -222,11 +222,8 @@ gsap.from('.education-card', {
     opacity: 0, y: 40, duration: 0.7, ease: 'power3.out'
 });
 
-// Contact cards
-gsap.from('.contact-card', {
-    scrollTrigger: { trigger: '.contact-grid', start: 'top 95%', once: true },
-    opacity: 0, y: 40, duration: 0.6, stagger: 0.1, ease: 'power3.out'
-});
+// Contact cards are critical, so we removed GSAP ScrollTrigger for them
+// to ensure they are always visible regardless of screen size and scroll bounds.
 
 // Consult benefits cards
 gsap.from('.consult-benefit-card', {
