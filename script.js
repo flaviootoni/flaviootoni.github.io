@@ -42,6 +42,31 @@ window.addEventListener('scroll', () => {
     });
 });
 
+// ===== Skills Tabs Logic =====
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabPanes = document.querySelectorAll('.tab-pane');
+
+tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Remove active class from all buttons and panes
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanes.forEach(p => p.classList.remove('active'));
+        
+        // Add active class to clicked button and target pane
+        btn.classList.add('active');
+        const targetId = btn.getAttribute('data-tab');
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) {
+            targetPane.classList.add('active');
+        }
+        
+        // Refresh GSAP ScrollTrigger to recalculate layout
+        if (typeof ScrollTrigger !== 'undefined') {
+            setTimeout(() => ScrollTrigger.refresh(), 100);
+        }
+    });
+});
+
 // ===== i18n Language Switcher =====
 let currentLang = localStorage.getItem('lang') || 'pt';
 

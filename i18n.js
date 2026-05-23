@@ -99,6 +99,8 @@ const translations = {
         // Skills
         "skills.eyebrow": "Stack & método",
         "skills.title": "Competências",
+        "skills.tab.strategy": "Liderança & Estratégia",
+        "skills.tab.tech": "Hard Skills & Stack Técnico",
         "skills.cat1": "Linguagens & Ecossistemas",
         "skills.cat2": "Arquitetura & Engenharia",
         "skills.cat2.1": "Sistemas Críticos",
@@ -297,6 +299,8 @@ const translations = {
         // Skills
         "skills.eyebrow": "Stack & methods",
         "skills.title": "Skills",
+        "skills.tab.strategy": "Leadership & Strategy",
+        "skills.tab.tech": "Hard Skills & Tech Stack",
         "skills.cat1": "Languages & Ecosystems",
         "skills.cat2": "Architecture & Engineering",
         "skills.cat2.1": "Critical Systems",

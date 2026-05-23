@@ -291,97 +291,116 @@
                 <span class="eyebrow" data-i18n="skills.eyebrow">Stack & método</span>
                 <h2 class="section-title display" data-i18n="skills.title">Competências</h2>
             </div>
-            <div class="skills-grid">
-                <div class="skill-card" data-cat="langs">
-                    <div class="skill-icon"><i class="fas fa-code"></i></div>
-                    <h4 data-i18n="skills.cat1">Linguagens & Ecossistemas</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Node.js</li>
-                        <li>React / Next.js / Vite</li>
-                        <li>Vue.js</li>
-                        <li>UML</li>
-                        <li>Hibernate</li>
-                    </ul>
+            
+            <div class="skills-tabs-container">
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="tab-strategy" data-i18n="skills.tab.strategy">Liderança & Estratégia</button>
+                    <button class="tab-btn" data-tab="tab-tech" data-i18n="skills.tab.tech">Hard Skills & Stack Técnico</button>
                 </div>
-                <div class="skill-card" data-cat="arch">
-                    <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
-                    <h4 data-i18n="skills.cat2">Arquitetura & Engenharia</h4>
-                    <ul>
-                        <li data-i18n="skills.cat2.1">Sistemas Críticos</li>
-                        <li data-i18n="skills.cat2.2">Domain-Driven Design (DDD)</li>
-                        <li data-i18n="skills.cat2.3">Arquitetura Hexagonal & Event-Driven</li>
-                        <li>Spec-Driven Development (SDD)</li>
-                        <li>Vibe Coding</li>
-                        <li data-i18n="skills.cat2.4">Resiliência & Escalabilidade</li>
-                    </ul>
+            </div>
+
+            <div class="skills-panels">
+                <!-- Tab: Liderança & Estratégia -->
+                <div class="tab-pane active" id="tab-strategy">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-cat="leadership">
+                            <div class="skill-icon"><i class="fas fa-users"></i></div>
+                            <h4 data-i18n="skills.cat6">Liderança</h4>
+                            <ul>
+                                <li data-i18n="skills.cat6.1">Gestão de Times</li>
+                                <li data-i18n="skills.cat6.2">Mediação Técnica/Negócio</li>
+                                <li data-i18n="skills.cat6.3">Tomada de Decisão</li>
+                                <li data-i18n="skills.cat6.4">Desenvolvimento de Pessoas</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="arch">
+                            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                            <h4 data-i18n="skills.cat2">Arquitetura & Engenharia</h4>
+                            <ul>
+                                <li data-i18n="skills.cat2.1">Sistemas Críticos</li>
+                                <li data-i18n="skills.cat2.2">Domain-Driven Design (DDD)</li>
+                                <li data-i18n="skills.cat2.3">Arquitetura Hexagonal & Event-Driven</li>
+                                <li>Spec-Driven Development (SDD)</li>
+                                <li>Vibe Coding</li>
+                                <li data-i18n="skills.cat2.4">Resiliência & Escalabilidade</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="product">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4 data-i18n="skills.cat8">Gestão de Produto & SaaS</h4>
+                            <ul>
+                                <li data-i18n="skills.cat8.1">Priorização: Features vs Dívida Técnica</li>
+                                <li data-i18n="skills.cat8.2">Alinhamento Técnico-Negócio</li>
+                                <li data-i18n="skills.cat8.3">Métricas & KPIs de Engenharia</li>
+                                <li data-i18n="skills.cat8.4">Gestão Financeira de Engenharia</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="ai">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h4 data-i18n="skills.cat3">IA Operacional</h4>
+                            <ul>
+                                <li>Claude Code & GitHub Copilot</li>
+                                <li>LLMs (OpenAI, Gemini)</li>
+                                <li>Embeddings & NLP</li>
+                                <li data-i18n="skills.cat3.3">Automação com IA</li>
+                                <li data-i18n="skills.cat3.4">IA aplicada à gestão</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="methods">
+                            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                            <h4 data-i18n="skills.cat5">Metodologias</h4>
+                            <ul>
+                                <li>Scrum / Kanban</li>
+                                <li>XP (Extreme Programming)</li>
+                                <li>ITIL</li>
+                                <li>PMBOK</li>
+                                <li>5S / Six Sigma</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card" data-cat="ai">
-                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
-                    <h4 data-i18n="skills.cat3">IA Operacional</h4>
-                    <ul>
-                        <li>Claude Code & GitHub Copilot</li>
-                        <li>LLMs (OpenAI, Gemini)</li>
-                        <li>Embeddings & NLP</li>
-                        <li data-i18n="skills.cat3.3">Automação com IA</li>
-                        <li data-i18n="skills.cat3.4">IA aplicada à gestão</li>
-                    </ul>
-                </div>
-                <div class="skill-card" data-cat="tools">
-                    <div class="skill-icon"><i class="fas fa-plug"></i></div>
-                    <h4 data-i18n="skills.cat4">Ferramentas & Integração</h4>
-                    <ul>
-                        <li data-i18n="skills.cat4.1">n8n (Orquestração)</li>
-                        <li>Azure Pipelines (CI/CD)</li>
-                        <li>Testes Automatizados</li>
-                        <li>GitHub</li>
-                        <li>Jira</li>
-                        <li>Asana</li>
-                    </ul>
-                </div>
-                <div class="skill-card" data-cat="methods">
-                    <div class="skill-icon"><i class="fas fa-tasks"></i></div>
-                    <h4 data-i18n="skills.cat5">Metodologias</h4>
-                    <ul>
-                        <li>Scrum / Kanban</li>
-                        <li>XP (Extreme Programming)</li>
-                        <li>ITIL</li>
-                        <li>PMBOK</li>
-                        <li>5S / Six Sigma</li>
-                    </ul>
-                </div>
-                <div class="skill-card" data-cat="leadership">
-                    <div class="skill-icon"><i class="fas fa-users"></i></div>
-                    <h4 data-i18n="skills.cat6">Liderança</h4>
-                    <ul>
-                        <li data-i18n="skills.cat6.1">Gestão de Times</li>
-                        <li data-i18n="skills.cat6.2">Mediação Técnica/Negócio</li>
-                        <li data-i18n="skills.cat6.3">Tomada de Decisão</li>
-                        <li data-i18n="skills.cat6.4">Desenvolvimento de Pessoas</li>
-                    </ul>
-                </div>
-                <div class="skill-card" data-cat="cloud">
-                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-                    <h4 data-i18n="skills.cat7">Backend & Cloud Infrastructure</h4>
-                    <ul>
-                        <li data-i18n="skills.cat7.1">Node.js, Python</li>
-                        <li data-i18n="skills.cat7.2">Azure, Kubernetes, Docker</li>
-                        <li>Apache Kafka</li>
-                        <li>Elastic Cloud (Observabilidade)</li>
-                        <li data-i18n="skills.cat7.3">Gestão de Custos Cloud</li>
-                        <li data-i18n="skills.cat7.4">Arquitetura de Sistemas Web</li>
-                    </ul>
-                </div>
-                <div class="skill-card" data-cat="product">
-                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
-                    <h4 data-i18n="skills.cat8">Gestão de Produto & SaaS</h4>
-                    <ul>
-                        <li data-i18n="skills.cat8.1">Priorização: Features vs Dívida Técnica</li>
-                        <li data-i18n="skills.cat8.2">Alinhamento Técnico-Negócio</li>
-                        <li data-i18n="skills.cat8.3">Métricas & KPIs de Engenharia</li>
-                        <li data-i18n="skills.cat8.4">Gestão Financeira de Engenharia</li>
-                    </ul>
+
+                <!-- Tab: Hard Skills & Stack Técnico -->
+                <div class="tab-pane" id="tab-tech">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-cat="langs">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h4 data-i18n="skills.cat1">Linguagens & Ecossistemas</h4>
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Node.js</li>
+                                <li>React / Next.js / Vite</li>
+                                <li>Vue.js</li>
+                                <li>UML</li>
+                                <li>Hibernate</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="cloud">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <h4 data-i18n="skills.cat7">Backend & Cloud Infrastructure</h4>
+                            <ul>
+                                <li data-i18n="skills.cat7.1">Node.js, Python</li>
+                                <li data-i18n="skills.cat7.2">Azure, Kubernetes, Docker</li>
+                                <li>Apache Kafka</li>
+                                <li>Elastic Cloud (Observabilidade)</li>
+                                <li data-i18n="skills.cat7.3">Gestão de Custos Cloud</li>
+                                <li data-i18n="skills.cat7.4">Arquitetura de Sistemas Web</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card" data-cat="tools">
+                            <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                            <h4 data-i18n="skills.cat4">Ferramentas & Integração</h4>
+                            <ul>
+                                <li data-i18n="skills.cat4.1">n8n (Orquestração)</li>
+                                <li>Azure Pipelines (CI/CD)</li>
+                                <li>Testes Automatizados</li>
+                                <li>GitHub</li>
+                                <li>Jira</li>
+                                <li>Asana</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
