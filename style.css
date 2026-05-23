@@ -46,7 +46,7 @@ body {
     font-weight: 300;
     color: var(--text);
     background:
-        radial-gradient(1200px 600px at 80% -10%, rgba(201, 165, 92, 0.05), transparent 60%),
+        radial-gradient(1200px 600px at 80% -10%, rgba(201, 165, 92, 0.02), transparent 40%),
         radial-gradient(900px 500px at -10% 30%, rgba(201, 165, 92, 0.02), transparent 60%),
         var(--bg);
     line-height: 1.7;
@@ -240,10 +240,11 @@ ul {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 40%;
     height: 100%;
-    background: radial-gradient(ellipse at top right, rgba(201, 165, 92, 0.06) 0%, transparent 60%);
+    background: radial-gradient(ellipse at top right, rgba(201, 165, 92, 0.01) 0%, transparent 40%);
     pointer-events: none;
+    display: none; /* Desativado para remover o brilho completamente */
 }
 
 .hero-number-bg,
@@ -350,7 +351,8 @@ ul {
     object-fit: contain;
     object-position: center bottom;
     display: block;
-    /* Removido filtro para garantir que a cor de fundo (10,10,10) case perfeitamente com o body */
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%);
 }
 
 /* ===== Buttons ===== */
